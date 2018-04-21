@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lucene-analyzers-smartcn-6.6.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/lucene-analyzers-smartcn-6.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-core-6.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-highlighter-6.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-memory-6.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-queries-6.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-queryparser-6.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

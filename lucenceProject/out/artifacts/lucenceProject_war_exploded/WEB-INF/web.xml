@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <description>SearchFileServlet</description>
+        <display-name>SearchFileServlet</display-name>
+        <servlet-name>SearchFileServlet</servlet-name>
+        <servlet-class>com.lucene.filesearch.controller.SearchFileServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>FileDownloadServlet</description>
+        <display-name>FileDownloadServlet</display-name>
+        <servlet-name>FileDownloadServlet</servlet-name>
+        <servlet-class>com.lucene.filesearch.controller.FileDownloadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchFileServlet</servlet-name>
+        <url-pattern>/SearchFile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FileDownloadServlet</servlet-name>
+        <url-pattern>/FileDownloadServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
